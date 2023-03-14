@@ -1,0 +1,662 @@
+body {
+    background: #E5E5E5
+}
+
+/* Header */
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+header {
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 970px;
+}
+
+.img-logo {
+    width: 160px;
+    height: 35px;
+    margin-top: 19px;
+    
+}
+
+.header-menu-link {
+    margin-top: 17px;
+    width: 288px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu-link a {
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.burger-top,
+.burger-center,
+.burger-bottom {
+    width: 60px;
+    height: 2px;
+    border: 1px solid white;
+    padding-top: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0px;
+    margin-right: 180px;
+}
+
+.burger-menu {
+    margin-top: 19px;
+}
+
+.header-items :first-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+}
+
+.header-items :last-child {
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.header-tittle{
+    padding-top: 145px;
+    width: 715px;
+    height: 186px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 93px;
+    color: #FFFFFF;
+
+}
+
+.autors-tour {
+    padding-top: 60px;
+    width: 574px;
+    height: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #FFFFFF;
+
+}
+
+.button-and-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    
+}
+
+.header-button {
+    box-sizing: border-box;
+    width: 287px;
+    height: 75px;
+    background: #FAC232;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+}
+
+.request1 {
+    width: 176px;
+    height: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    color: #251404;
+}
+
+.img-and-discription {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+.img-and-discription p {
+    width: 108px;
+    height: 78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A2A8B6;
+    margin-left: 20px;
+
+}
+
+.img-and-discription img {
+    width: 75px;
+    height: 75px;
+}
+
+.meta-countries-position {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.meta {
+    width: 206px;
+    height: 68px;
+    margin-top: 0px;
+    padding-top: 80px;
+}
+
+.meta-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.meta-discription {
+    width: 206px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.countries {
+    display: flex;
+    margin-right: 120px;
+}
+
+.island {
+    background-image: url(../img/Island.png);
+    width: 285px;
+    height: 200px;
+}
+
+.dolmit {
+    background-image: url(../img/Dolmit.png);
+    width: 285px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.norway {
+    background-image: url(../img/Norway.png);
+    width: 285px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.countries-number {
+    width: 30px;
+    height: 25px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.countries-text {
+    width: 106px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 70px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.countries-arrow {
+    width: 30px;
+    height: 10px;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+/* Main content */
+
+main {
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    
+}
+
+.first-main-block {
+    margin-top: 144px;
+    width: 1375px;
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-gavay {
+    width: 830px;
+    height: 475px;
+    background-image: url(../img/about-trip.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gavay-text {
+    margin: 0px;
+    padding-top: 38px;
+    padding-left: 50px;
+}
+
+.gavay-numbers {
+    margin: 0px;
+    width: 63px;
+    height: 28px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.gavay-month {
+    margin: 0px;
+    width: 61px;
+    height: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.gavay-text-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gavay-text-island {
+    margin: 0px;
+    padding-left: 60px;
+    padding-bottom: 45px;
+    width: 201px;
+    height: 68px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.countries-arrow-gavay {
+    width: 30px;
+    height: 10px;
+    margin-top: 34px;
+    margin-right: 60px;
+    display: inline-block;
+
+}
+
+.all-tour {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-tour-tittle {
+    margin: 0px;
+    padding-top: 42px;
+    width: 445px;
+    height: 138px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.all-tour-text {
+    margin: 0px;
+    padding-top: 30px;
+    width: 415px;
+    height: 99px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.button-watch {
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 270px;
+    height: 75px;
+    border: 2px solid #FAC232;
+    border-radius: 38px;
+    background-color: #FFFFFF;
+}
+
+.watch-all {
+    width: 144px;
+    height: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    color: #FAC232;
+}
+
+.second-main-block {
+    width: 1920px;
+    height: 518px;
+    margin-top: 155px;
+    background-image: url(../img/request.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.second-main-half-width {
+    width: 1100px;
+    height: 518px;
+    display: flex;
+    align-items: center;
+}
+
+.second-main-report {
+    width: 368px;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.second-main-free-cons {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 368px;
+    height: 165px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.second-main-call-you {
+    margin: 0px;
+    padding-top: 30px;
+    width: 215px;
+    height: 66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.second-main-your-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+
+}
+
+.second-main-your-name {
+    box-sizing: border-box;
+    width: 287px;
+    height: 75px;
+    border: 3px solid #D0DCE3;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.second-main-your-number {
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 287px;
+    height: 75px;
+    border: 3px solid #D0DCE3;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.second-main-your-report {
+    margin-top: 30px;
+    width: 287px;
+    height: 75px;
+    background: #FAC232;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.second-main-request {
+    width: 192px;
+    height: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    color: #251404;
+}
+
+.second-main-put-button {
+    margin-top: 10px;
+    width: 247px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.second-main-put-button-link {
+    text-decoration: none;
+    color: #A37910;
+}
+
+
+.third-main-block {
+    margin-top: 160px;
+    display: flex;
+    width: 1400px;
+    height: 475px;
+}
+
+.third-main-block-request {
+    width: 507px;
+    height: 392px;
+    margin-right: 62px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-main-block-tittle {
+    margin: 0px;
+    width: 507px;
+    height: 138px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.third-main-block-text {
+    margin: 0px;
+    width: 466px;
+    height: 99px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px; 
+    color: #000000;
+}
+
+.third-main-block-img {
+    background-image: url(../img/revievus.png);
+    width: 830px;
+    height: 475px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.third-main-block-revievse {
+    margin: 0px;
+    padding-top: 38px;
+    padding-left: 50px;
+}
+
+.third-main-block-revieve {
+    margin: 0px;
+    width: 63px;
+    height: 28px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.third-main-block-revievse-name {
+    margin: 0px;
+    width: 128px;
+    height: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.third-main-block-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-main-block-revievse-text {
+    margin: 0px;
+    width: 345px;
+    height: 68px;
+    padding-bottom: 45px;
+    padding-left: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+
+footer {
+    width: 1920px;
+    height: 214px;
+    background: #FCFCFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-first-block {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+
+.first-p {
+    margin: 0px;
+    width: 166px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #76838D;
+}
+
+.second-p {
+    margin: 0px;
+    width: 198px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+    color: #76838D;
+}
+
+
+.footer-second-block {
+    width: 204px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
